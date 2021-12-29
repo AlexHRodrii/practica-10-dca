@@ -8,7 +8,7 @@ int main()
   std::cin >> num1;
   std::cout << "Ingrese el segundo numero\n";
   std::cin >> num2;
-  resultado = num1 + num2;
+  resultado = num1 - num2;
   std::cout << resultado << "\n";
   return 0;
 }
