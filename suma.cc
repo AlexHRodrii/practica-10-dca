@@ -9,6 +9,7 @@ int main()
   std::cout << "Ingrese el segundo numero para la suma\n";
   std::cin >> num2;
   resultado = num1 - num2;
+  std::cout << "El resultado es:\n";
   std::cout << resultado << "\n";
   return 0;
 }
